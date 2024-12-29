@@ -10,6 +10,58 @@
   * **Exclusão de arquivos originais:** Após a sincronização, você pode optar por excluir os arquivos originais da pasta local para liberar espaço em disco.
   * **Interface amigável:**  Interface de linha de comando intuitiva e fácil de usar.
 
+## Requisitos
+
+  * **Bash:** Um interpretador de comandos Bash (geralmente já incluso em sistemas Linux/Unix).
+  * **rsync:**  Utilitário para sincronização de arquivos.
+
+## Instalação dos Requisitos
+
+### Linux
+
+A maioria das distribuições Linux já vem com o Bash e o `rsync` instalados por padrão. Caso necessite instalar, utilize o gerenciador de pacotes da sua distribuição.
+
+**Exemplos:**
+
+  * **Debian/Ubuntu:**
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get install rsync
+    ```
+
+  * **Fedora/CentOS:**
+
+    ```bash
+    sudo dnf update
+    sudo dnf install rsync
+    ```
+
+  * **Arch Linux:**
+
+    ```bash
+    sudo pacman -Syu rsync
+    ```
+
+### macOS
+
+O macOS já inclui o Bash por padrão. Para instalar o `rsync`, você pode usar o Homebrew:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install rsync
+```
+
+### Windows
+
+Você pode utilizar o SafeSync no Windows através do WSL (Windows Subsystem for Linux).
+
+1.  **Instale o WSL:** Siga as instruções no site da Microsoft: [Instalar o WSL](https://www.google.com/url?sa=E&source=gmail&q=https://learn.microsoft.com/pt-br/windows/wsl/install)
+
+2.  **Instale uma distribuição Linux:**  Escolha uma distribuição Linux na Microsoft Store, como Ubuntu ou Debian.
+
+3.  **Instale o `rsync` dentro da distribuição Linux:** Utilize o gerenciador de pacotes da distribuição, como `apt` ou `apt-get`.
+
 ## Como usar
 
 1.  **Clone o repositório:**
@@ -49,15 +101,10 @@ Backup concluído!
 
 ## Observações
 
-  * Certifique-se de ter o `rsync` instalado em seu sistema.
-  * Substitua os caminhos e destinos de exemplo pelos seus próprios.
+  * Certifique-se de ter permissão de escrita nos destinos de backup.
   * Tenha cuidado ao usar a opção de exclusão de arquivos. Certifique-se de que o backup foi concluído com sucesso antes de excluir os arquivos locais.
 
 ## Contribuições
 
 Contribuições são bem-vindas\! Sinta-se à vontade para abrir issues ou pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](https://www.google.com/url?sa=E&source=gmail&q=LICENSE) para detalhes.
 
