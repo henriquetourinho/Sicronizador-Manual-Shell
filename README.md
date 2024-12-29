@@ -73,8 +73,8 @@ Você pode utilizar o SafeSync no Windows através do WSL (Windows Subsystem for
 
     ```bash
     cd SafeSync
-    chmod +x sync.sh
-    ./sync.sh
+    chmod +x safesync.sh
+    ./safesync.sh
     ```
 
 3.  **Siga as instruções:** O script irá perguntar quantas pastas você deseja sincronizar, o caminho de cada pasta local e o destino correspondente.
@@ -84,7 +84,7 @@ Você pode utilizar o SafeSync no Windows através do WSL (Windows Subsystem for
 ## Exemplo de uso
 
 ```
-./sync.sh
+./safesync.sh
 Quantas pastas locais você deseja sincronizar? 2
 Digite o caminho da pasta local 1: /home/usuario/Documentos
 Digite o destino para a pasta 1 (ex: usuario@servidor:/caminho/para/pasta): usuario@servidor:/backup/Documentos
