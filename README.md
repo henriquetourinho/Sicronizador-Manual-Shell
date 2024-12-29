@@ -6,7 +6,6 @@
 
   * **Sincronização de múltiplas pastas:** Escolha quais pastas locais deseja proteger e sincronize-as com diferentes destinos.
   * **Backup incremental:** Utiliza `rsync` para transferir apenas as alterações nos arquivos, economizando tempo e banda larga.
-  * **Agendamento:** Configure o SafeSync para executar backups automaticamente em intervalos regulares usando o `cron` ou outra ferramenta de agendamento (não incluso no script).
   * **Exclusão de arquivos originais:** Após a sincronização, você pode optar por excluir os arquivos originais da pasta local para liberar espaço em disco.
   * **Interface amigável:**  Interface de linha de comando intuitiva e fácil de usar.
 
