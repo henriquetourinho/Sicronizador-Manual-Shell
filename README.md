@@ -1,4 +1,4 @@
-# SafeSync
+# Sicronizador Manual Shell
 
 **SafeSync** é um script de backup e sincronização de pastas simples, eficiente e seguro, escrito em Shell Script. Ele permite que você sincronize múltiplas pastas locais com um ou mais destinos externos, como servidores ou dispositivos de armazenamento.
 
@@ -66,14 +66,14 @@ Você pode utilizar o SafeSync no Windows através do WSL (Windows Subsystem for
 1.  **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/henriquetourinho/SafeSync.git
+    git clone https://github.com/henriquetourinho/SafeSicronizador-Manual-ShellSync.git
     ```
 
 2.  **Execute o script:**
 
     ```bash
     cd SafeSync
-    chmod +x safesync.sh
+    chmod +x sicronizadormanualshell.sh
     ./safesync.sh
     ```
 
